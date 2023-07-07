@@ -85,10 +85,12 @@
     background-color: goldenrod;
 }
 .offer-container{
+    border: 1px solid gray;
+    /* border-radius: 5px; */
     display: flex;
     padding: 20px;
     margin-top: 20px;
-    /* border: 2px solid tomato; */
+    background-color: grey;
     justify-content: space-around;
 }
 .box{
@@ -113,3 +115,37 @@
     padding: 2px;
     margin: 2px;
 }
+.photo{
+    width: 300px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.about-container{
+    background-color: white;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+}
+.about-titel{
+    margin-left: 250px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(137, 99, 4)
+}
+.about-para{
+    margin-left: 250px;
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(137, 99, 4)
+
+}
+.btn4{
+    font-weight: bold;
+    margin-left: 270px;
+    padding: 15px;
+    color:black;
+    background-color: goldenrod;
+    border: 2px solid gold;
+}
+
+
