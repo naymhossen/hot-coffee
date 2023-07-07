@@ -69,3 +69,47 @@
     margin-right: 900px;
     text-align: left;
 }
+.title-3{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.btn3{
+    margin: 5pxpx;
+    padding: 5px;
+    color:white;
+    background-color: goldenrod;
+}
+.offer-container{
+    display: flex;
+    padding: 20px;
+    margin-top: 20px;
+    /* border: 2px solid tomato; */
+    justify-content: space-around;
+}
+.box{
+    text-align: center;
+    padding: 1px;
+    color: white;
+    background-color: rgb(255, 204, 75);
+    width: 280px;
+    height: 310px;
+    box-shadow: 4px 4px 15px goldenrod;
+}
+.varity{
+    width: 280px;
+}
+.box-titel{
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+.box-paragrap{
+    font-size: 18px;
+    padding: 2px;
+    margin: 2px;
+}
