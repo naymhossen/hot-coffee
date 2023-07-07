@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: space-around;
 }
+
 .ls-img{
     width: 100px;
 }
@@ -25,4 +26,46 @@
 }
 .item:hover{
     color: goldenrod;
+}
+.banner-container{
+    height: 300px;
+    border: 1px solid goldenrod;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/background/coffee-bg.jpeg');
+    /* background-repeat: no-repeat; */
+    background-position: left;
+}
+.title-1{
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+}
+.title-2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.description{
+    color: white;
+    font-size: 18px;
+}
+.btn1{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    color:white;
+    background-color:black;
+}
+.btn2{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid gold;
+    color: white;
+    background-color:gold;
+}
+.banner-text{
+    margin-right: 900px;
+    text-align: left;
 }
