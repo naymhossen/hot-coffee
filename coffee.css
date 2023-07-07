@@ -147,5 +147,25 @@
     background-color: goldenrod;
     border: 2px solid gold;
 }
+.logos{
+    width: 200px
+}
+.mainfooter-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(154, 145, 145);
+}
+.coppy{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    background-color: black;
+}
 
 
